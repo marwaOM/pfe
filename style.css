@@ -5,9 +5,18 @@
 body{
     margin:0;
     padding: 0;
-
+color:blck;
+background-color:white ;
 }
-h1,h2 ,p{margin:0}
+
+.darkmode{
+    color:white;
+    background-color: black;
+}
+
+
+h1,h2 ,p{margin:0;
+}
 a{ 
     text-decoration: none;
 
@@ -15,3 +24,53 @@ a{
 li{list-style: none;}
 button{margin: 0;
 cursor: pointer;}
+.navbar{
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+}
+h1{margin: 10px;
+    padding: 10px;}
+.nav{
+    
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+flex-direction:row;
+justify-content: space-between;
+gap: 1rem;
+
+}
+li{ display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+    align-items: end;
+    gap:2px;
+    }
+    .cards{
+        padding: 30px;
+        width:100%;
+        margin: 20px;
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        gap: 2px;
+        align-items: center;
+        text-align: center;
+
+    }
+    footer{
+        background-color: black;
+    color: white;
+    text-align: center;
+    
+
+}
+.contact{
+    padding:15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+

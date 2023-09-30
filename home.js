@@ -1,4 +1,9 @@
-function addvariables (){
-let sum = 15+6;
-console.log(sum);
- }
+
+function mymode(){
+
+    let mode= document.body
+
+    mode.classList.toggle("darkmode");
+
+}
+
